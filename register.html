@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="C:/Users/Acer/Desktop/css/register.css">
+	<script src="register.js"></script>
+</head>
+<body>
+	<div class="full">
+	
+<form onsubmit="validate()" action="register.html" style="max-width:350px;margin:auto">
+  <h2><i>Grocery Order Form</i></h2>
+  
+  <label for=" name">customer  Name</label>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="  user Name" name="customer Name" id="uname">
+  </div>
+<br><br>
+
+<label>Phone Number</label>
+<div class="input-container">
+	<i class="fa fa-phone icon"></i>
+	<input  class="input-field" type="text" placeholder="(000) 000-0000" name="number" id="ph">
+	<span id="msg" style="color: red"></span>
+</div>
+<br>
+<label>Email</label>
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Ex:example@gmail.com" name="Email" id="email">
+    <span id="msg" style="color: red"></span>
+  </div>
+<br>
+<label>password</label>
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="pass">
+  </div>
+<br>
+<label>Delivery Address</label>
+ <div class="input-container">
+    <i class="fa fa-home icon"></i>
+    <input class="input-field" type="text" placeholder=" Address" name="email">
+  </div>
+<br>
+  <div class="input-container">
+    <input class="input-field" type="text" placeholder="city" name="city">
+  </div>
+  <br>
+<div class="input-container">
+    <input class="input-field" type="text" placeholder="postal/Zip code" name="code">
+  </div>
+<br>
+
+
+  <button  type="submit" class="btn">Order</button>
+</form>
+</div>
+<script src="register.js"></script>
+</body>
+</html>
